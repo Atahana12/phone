@@ -1,0 +1,253 @@
+body {
+    background-color: #f9f9f9;
+}
+.p {
+    color: aliceblue;
+    margin-left: 22px;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif; user-select: none;
+    
+}
+.p2 {
+    color: rgb(0, 0, 0);
+    margin-left: 950px;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif; user-select: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+.p2:active {
+    transform: scale(0.95);
+}
+.p3 {
+    font-size: 80px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+.p4 {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    margin-left: 90px;
+}
+.white-block {
+    background-color: white; 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 1400px; 
+    border-radius: 1px; 
+    min-height: 1200px;
+}
+.shapka {
+    display: flex;
+    padding: 15px 20px; 
+    width: 100%;
+}
+.aplog {
+    max-width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: 80px;
+    user-select: none;
+}
+.home {
+    margin-left: 50px;
+    background-color: black;
+    width: 85px;
+    height: 40px;
+    display: block;
+    border-radius: 7px; 
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+.home:active {
+    transform: scale(0.95);
+}
+.phones {
+    display: flex;
+}
+.phone1 {
+    max-width: 500px;
+    margin-left: 600px;
+    margin-top: -350px;
+    user-select: none;
+}
+.phone12 {
+    max-width: 350px;
+    margin-left: 4px;
+    user-select: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+.phone12:hover {
+    transform: scale(1.05);
+}
+.phone12:active {
+    transform: scale(0.95);
+}
+.phone13 {
+    max-width: 350px;
+    margin-left: 4px;
+    user-select: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+.phone13:hover {
+    transform: scale(1.05);
+}
+.phone13:active {
+    transform: scale(0.95);
+}
+.phone14 {
+    max-width: 350px;
+    margin-left: 4px;
+    user-select: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+.phone14:hover {
+    transform: scale(1.05);
+}
+.phone14:active {
+    transform: scale(0.95);
+}
+.phone15 {
+    max-width: 350px;
+    margin-left: 4px;
+    user-select: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+.phone15:hover {
+    transform: scale(1.05);
+}
+.phone15:active {
+    transform: scale(0.95);
+}
+.textp {
+    display: flex;
+    margin-top: -30px;
+}
+.textd {
+    display: flex;
+    margin-top: -30px;
+}
+.p5 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 85px;
+    z-index: 12;
+}
+.p6 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 220px;
+    z-index: 12;
+}
+.p7 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 220px;
+    z-index: 12;
+}
+.p8 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 220px;
+    z-index: 12;
+}
+.p9 {
+    font-family: Arial, sans-serif;
+    margin-left: 85px;
+}
+.p10 {
+    font-family: Arial, sans-serif;
+    margin-left: 320px;
+}
+.p11 {
+    font-family: Arial, sans-serif;
+    margin-left: 315px;
+}
+.p12 {
+    font-family: Arial, sans-serif;
+    margin-left: 315px;
+}
+.p13 {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    margin-left: 80px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .shapka {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home {
+    margin: 10px 0;
+  }
+
+  .aplog {
+    margin-left: 0;
+  }
+
+  .p2 {
+    margin-left: 0;
+  }
+
+  .p3, .p4, .p13 {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .p3 {
+    font-size: 50px;
+    margin-left: 40px;
+  }
+
+  .p4, .p13 {
+    font-size: 32px;
+    margin-left: 40px;
+  }
+
+  .phones {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .phone1 {
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .phone12, .phone13, .phone14, .phone15 {
+    max-width: 90%;
+  }
+
+  .textp, .textd {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .p5, .p6, .p7, .p8,
+  .p9, .p10, .p11, .p12 {
+    margin-left: 0;
+  }
+}
